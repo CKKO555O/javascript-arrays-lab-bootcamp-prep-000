@@ -38,3 +38,15 @@ function appendKitten(name){
   newKittens.shift(name)
   return newKittens
 }
+
+function removeLastitten(){
+  var newKittens = [...kittens]
+  newKitten.pop()
+  return newKittens
+}
+
+function removeFirstKitten(){
+  var newKittens = [...kittens]
+  newKitten.shift()
+  return newKittens
+}
