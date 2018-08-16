@@ -39,7 +39,7 @@ function appendKitten(name){
   return newKittens
 }
 
-function removeLastitten(){
+function removeLastKitten(){
   var newKittens = [...kittens]
   newKittens.pop()
   return newKittens
