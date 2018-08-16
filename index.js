@@ -2,4 +2,4 @@
 var fruit1 = ["apple", "grape", "pear"];
 var fruit2 = ["banana", "lemon", "tomato"];
 
-console.log(fruits1.concat(fruits2));
+console.log(fruit1.concat(fruit2));
