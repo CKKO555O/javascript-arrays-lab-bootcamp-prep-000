@@ -1,5 +1,28 @@
 // Add your functions and code here
-var fruit1 = ["apple", "grape", "pear"];
-var fruit2 = ["banana", "lemon", "tomato"];
+var kittens = ["Milo", "Otis", "Garfield"]
 
-console.log(fruit1.concat(fruit2));
+function destructivelyAppendKitten(name){
+  kittens.push(name)
+  return kittens
+}
+
+function destructivelyPrependKitten(name){
+  kittens.unshift(name)
+  return kittens
+}
+
+function destructivelyRemoveLastKitten(name){
+  kittens.pop()
+  return kittens
+}
+
+function destructivelyRemoveFirstKitten(name){
+  kittens.shift()
+  return kittens
+}
+
+function appendKitten(name){
+  var newKittens = [...kittens]
+  newKittens.push(name)
+  return newKittens
+}
